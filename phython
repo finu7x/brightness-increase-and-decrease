@@ -1,0 +1,93 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOGfuoknwkEmJFA4zvk2huM",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/finu7x/brightness-increase-and-decrease/blob/main/phython\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 6,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "PFwrIyZLaYur",
+        "outputId": "23b186d2-f8ac-4de3-bab0-75b0872f7916"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "5\n",
+            "5\n",
+            "10\n"
+          ]
+        }
+      ],
+      "source": [
+        "def addition (a,b):\n",
+        " print(a+b)\n",
+        "a=int(input())\n",
+        "b=int(input())\n",
+        "addition(a,b)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def factorial(n):\n",
+        "  if n==0:\n",
+        "    return 1;\n",
+        "\n",
+        "  result = 1\n",
+        "  for i in range(1,n+1):\n",
+        "    result*=i\n",
+        "  return result\n",
+        "factorial(4)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "JWbp2gvjdNu9",
+        "outputId": "39b32267-be20-433d-b7f1-4d56c69e35ad"
+      },
+      "execution_count": 14,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "24"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 14
+        }
+      ]
+    }
+  ]
+}
